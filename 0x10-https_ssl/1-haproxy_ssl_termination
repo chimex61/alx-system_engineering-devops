@@ -50,4 +50,5 @@ backend web_servers
 	balance	roundrobin
 	mode	http
 	server	1115-web-01 34.232.65.125:80
-	server	1115-web-02 54.172.67.44:80
+	server	1115-web-02 54.157.180.122:80
+        server	1115-web-02 54.158.189.146:80
